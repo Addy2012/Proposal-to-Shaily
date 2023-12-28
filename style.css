@@ -5,7 +5,17 @@ body {
 }
 
 .bg_heart {
-    position: relative;
+        background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("https://i.postimg.cc/1XcLrz2X/pexels-stanley-morales-1487076.jpg");
+    background-size: cover;
+    z-index: -1;
+    animation: shaily-princess 55s infinite ease-in-out;
+    /* position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -15,7 +25,7 @@ body {
     background-size: 100vh 100vh;
     background-size: cover;
     z-index: -1;
-    animation: shaily-princess 55s infinite ease-in-out;
+    animation: shaily-princess 55s infinite ease-in-out; */
 }
 
 @keyframes shaily-princess {
